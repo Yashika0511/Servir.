@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servir</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet">
+
+  
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        Servir<span class="span">.</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#course" class="navbar-link" data-nav-link>Restaurants</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#f" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+        </ul>
+
+      </nav>
+
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('./assets/images/food.jpg')">
+        <div class="container">
+
+          <p class="hero-subtitle">Eat, sleep, Repeat!</p>
+
+          <h6 class="h1 hero-title">You craving for something?</h6>
+          <h6 class="h1 hero-title">Grab your midnight craving!</h6>
+          <input class="form-control" type="text" placeholder="Search Your Fav Restaurant" aria-label="default input example" style="width:400px;height:40px; font-size: 14pt;" style="border:1px solid black">
+          <button type="button" class="btn btn-warning btn-sm">Search</button>
+
+          
+        </div>
+      </section>
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course" aria-label="course" id="course" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <p class="section-subtitle">Restaurant Available</p>
+
+            <h2 class="h2 section-title">Grab a bite from your fav restaurant</h2>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="course-card" >
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/thali.jpg" width="350" height="300" loading="lazy"
+                    alt="DARBAR VEG RESTAURANT" class="img-cover" label onclick="location.href='res1.html';">
+                </figure>
+
+                <div class="card-content">
+                  <data class="card-price"></data>
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res1.html';">DARBAR VEG RESTAURANT</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/pizza.jpg" width="350" height="300" loading="lazy"
+                    alt="PIZZA HUT." class="img-cover" onclick="location.href='res2.html';">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price"></data>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res2.html';">PIZZA HUT</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/dosa.jpg" width="350" height="300" loading="lazy"
+                    alt="INDIAN COFFEE HOUSE" class="img-cover" onclick="location.href='res3.html';">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price"></data>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res3.html';">INDIAN COFFEE HOUSE</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/chicken.jpg" width="350" height="300" loading="lazy"
+                    alt="KFC" class="img-cover" onclick="location.href='res4.html';">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price"></data>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res4.html';">KFC</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/momos.jpg" width="350" height="300" loading="lazy"
+                    alt="MOMO JUNCTION" class="img-cover" onclick="location.href='res5.html';">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price"></data>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res5.html';">MOMO JUNCTION</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="course-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 300;">
+                  <img src="./assets/images/pasta.jpg" width="350" height="300" loading="lazy"
+                    alt="Passerini" class="img-cover" onclick="location.href='res6.html';">
+                </figure>
+
+                <div class="card-content">
+
+                  <data class="card-price"></data>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title" onclick="location.href='res6.html';">PASSERINI</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="f">
+
+    <div class="footer-top section" data-section>
+      <div class="container">
+
+        <div class="footer-list" id="'item#1">
+
+          <p class="footer-list-title">Subscribe to Newsletter</p>
+
+          <p class="footer-list-text">
+            Subscribe to our newsletter. <br> Receive new receipes every week.
+          </p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" aria-label="email" placeholder="Enter gmail address" required
+              class="email-field" id="newsletter">
+
+            <button type="submit" class="btn btn-secondary" onclick="generate_prompt()">Subscribe Now</button>
+            </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Discussion</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Customer Support</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Course FAQ’s</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Classes</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mon-Fri: 9 AM – 6 PM</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Saturday: 9 AM – 4 PM</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sunday: Closed</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title"><img src="./assets/images/donut.png" alt="image" height="250px" width="250px"></p>
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    
+    const generate_prompt=()=>{
+    alert("you have now subscribed to newsletter");
+
+    }
+
+  </script>
+
+</body>
+
+</html>
